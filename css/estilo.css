@@ -1,0 +1,150 @@
+/* Configurações gerais do site */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8faf8;
+    color: #24352d;
+    margin: 0;
+    line-height: 1.6;
+}
+
+
+/* Cabeçalho */
+header {
+    background-color: #246b55;
+    color: white;
+    text-align: center;
+    padding: 24px;
+}
+
+/* Menu de navegação */
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 12px;
+    font-weight: bold;
+}
+
+/* Efeito ao passar o mouse */
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Conteúdo principal */
+main {
+    max-width: 1100px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+/* Seções e produtos */
+section, article {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+}
+
+/* Imagens */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Rodapé */
+footer {
+    background-color: #24352d;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+/* Carrossel de produtos em destaque */
+#carrosselPatinhas {
+    max-width: 750px;
+    margin: 0 auto 30px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+/* Padroniza o tamanho das imagens */
+#carrosselPatinhas .carousel-item img {
+    width: 100%;
+    height: 350px;
+    object-fit: contain;
+    background-color: white;
+}
+
+/* Melhora a visibilidade das setas */
+#carrosselPatinhas .carousel-control-prev-icon,
+#carrosselPatinhas .carousel-control-next-icon {
+    background-color: #246b55;
+    border-radius: 50%;
+    padding: 18px;
+}
+
+/* Ajustes para telas menores */
+@media (max-width: 600px) {
+    #carrosselPatinhas .carousel-item img {
+        height: 240px;
+    }
+}
+
+
+/* Mensagens de confirmação do agendamento */
+#resultado {
+    white-space: pre-line;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 16px;
+}
+
+/* Oculta a mensagem quando necessário */
+#resultado[hidden] {
+    display: none;
+}
+
+/* Melhora o destaque dos campos selecionados */
+.form-control:focus,
+.form-select:focus {
+    border-color: #246b55;
+    box-shadow: 0 0 0 0.2rem rgba(36, 107, 85, 0.2);
+}
+
+/* Destaque para navegação por teclado */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible {
+    outline: 3px solid #d18b2f;
+    outline-offset: 3px;
+}
+
+
+/* Link de acessibilidade para navegação por teclado */
+.pular-conteudo {
+    position: absolute;
+    left: 10px;
+    top: -100px;
+    background-color: #ffffff;
+    color: #123d30;
+    padding: 12px 18px;
+    border: 2px solid #123d30;
+    border-radius: 6px;
+    z-index: 9999;
+}
+
+/* Aparece quando recebe foco pelo teclado */
+.pular-conteudo:focus {
+    top: 10px;
+}
+
+/* Destaca elementos ao navegar com Tab */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+    outline: 3px solid #d18b2f;
+    outline-offset: 3px;
+}

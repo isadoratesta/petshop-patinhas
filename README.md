@@ -1,66 +1,98 @@
 
+
 # Petshop Patinhas
 
-Projeto desenvolvido para a Fase 1 da disciplina
+Projeto acadêmico desenvolvido por
+Isadora Oliveira Testa da Silva para a disciplina
 Fundamentos de Sistemas Web da PUCRS.
 
 ## Objetivo
 
-Desenvolver um site de petshop utilizando HTML5,
-apresentando produtos e serviços de forma organizada
-e com navegação entre páginas.
-
-## Funcionalidades
-
-- Página inicial com apresentação do petshop.
-- Menu de navegação entre as páginas.
-- Visualização de produtos divididos em 3 categorias.
-- Exibição de imagens, descrições e preços dos produtos.
-- Consulta de serviços de banho e tosa.
-- Informações sobre tele-busca e valores.
-- Página com dados de contato do estabelecimento.
-
-## Categorias de produtos
-
-1. Acessórios: bolinha e caminha para pets.
-2. Rações: ração para cães e para gatos.
-3. Higiene e limpeza: tapete higiênico e shampoo.
-
-## Serviços
-
-- Banho com ou sem tele-busca.
-- Tosa com ou sem tele-busca.
-- Banho e tosa com ou sem tele-busca.
+Desenvolver uma plataforma web demonstrativa para
+um petshop, apresentando produtos, serviços e
+um formulário de cadastro e agendamento.
 
 ## Tecnologias utilizadas
 
 - HTML5
+- CSS3
+- Bootstrap 5
+- JavaScript
 
-Nesta fase não foram utilizados CSS, Bootstrap
-ou JavaScript, conforme as orientações da disciplina.
+## Funcionalidades
 
-## Como utilizar
+- Página inicial com apresentação do petshop.
+- Menu de navegação entre cinco páginas.
+- Catálogo com seis produtos em três categorias.
+- Imagens, descrições e preços dos produtos.
+- Apresentação dos serviços de banho e tosa.
+- Carrossel de imagens com controles de navegação.
+- Cadastro demonstrativo do cliente e do pet.
+- Escolha do serviço e modalidade de atendimento.
+- Agendamento com seleção de data e horário.
+- Validação de campos obrigatórios.
+- Cálculo automático do valor do serviço.
+- Exibição de confirmação demonstrativa.
 
-1. Abra o arquivo index.html em um navegador.
-2. Utilize o menu para acessar as outras páginas.
-3. Acesse Produtos para visualizar o catálogo.
-4. Acesse Serviços para consultar os valores.
-5. Acesse Contato para visualizar as informações
-   do petshop.
+## Ajustes realizados na Fase 2
+
+1. Organização e revisão dos arquivos HTML.
+2. Criação de um arquivo CSS externo.
+3. Integração com Bootstrap para estilização.
+4. Implementação do carrossel na página inicial.
+5. Criação da página cadastro.html.
+6. Criação do arquivo js/script.js.
+7. Implementação de validações de agendamento.
+8. Integração da página de cadastro ao menu.
+9. Inclusão de recursos de acessibilidade.
+10. Padronização visual das páginas.
+
+## Acessibilidade
+
+O projeto utiliza:
+
+- Textos alternativos nas imagens.
+- Labels associados aos campos dos formulários.
+- Organização semântica com HTML5.
+- Link para pular diretamente ao conteúdo principal.
+- Destaque visual do foco durante navegação por teclado.
+- Mensagens de resultado utilizando aria-live.
 
 ## Estrutura do projeto
 
-- index.html: página inicial.
+- index.html: página inicial e carrossel.
 - produtos.html: catálogo de produtos.
 - servicos.html: serviços e valores.
+- cadastro.html: formulário e agendamento.
 - contato.html: informações de contato.
-- imagens/: imagens dos produtos.
-- README.md: documentação do projeto.
+- css/estilo.css: estilos personalizados.
+- js/script.js: validações e cálculos.
+- imagens/: imagens utilizadas no projeto.
+
+## Como utilizar
+
+1. Abra index.html em um navegador.
+2. Utilize o menu para navegar entre as páginas.
+3. Consulte os produtos e serviços disponíveis.
+4. Acesse Agendamento.
+5. Preencha o formulário com dados fictícios.
+6. Escolha o serviço, a modalidade, a data e o horário.
+7. Clique em Simular agendamento.
+
+## Limitações
+
+O projeto é uma simulação acadêmica de front-end.
+
+Os dados não são enviados ou armazenados em um servidor.
+Não existe reserva real de horários nem integração com
+sistemas de pagamento.
+
+Os dados de contato, preços e serviços são ilustrativos.
 
 ## Autoria
 
-Desenvolvido por Isadora Testa.
+Isadora Oliveira Testa da Silva
 
-PUCRS - Fundamentos de Sistemas Web - Fase 1.
+PUCRS - Fundamentos de Sistemas Web
+Projeto da Disciplina - Fases 1 e 2
 
-Projeto acadêmico com informações comerciais fictícias.
